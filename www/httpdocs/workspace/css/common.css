@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    white-space: no-wrap;
+    list-style: none; 
+    }
+    html {
+        overflow-x: scroll;
+        font-family: 'Helvetica Neue', Helvetica Neue, helvetica;
+        line-height: 100px;
+        font-weight: 100;
+        font-size: 20px;
+        color: #777;
+        }
+    
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 0 30px;
+        color: #777;
+        }
+        a:hover,
+        a.active {
+            color: #333;
+            }
+    
+    ul {
+        list-style: none;
+        background: transparent;
+        }
+        li {
+            background: #fff;
+            border-top: solid 1px #bbb;
+            width: 100%;
+            }
+
+
+#nav {
+    position: absolute;
+    z-index: 100;
+    }
+
+    #nav li.top {
+        
+        display: block;
+        float: left;
+        background: transparent;
+        width: 200px;
+        border: none;
+        }
+    #nav li.top span {
+        padding: 0 30px;
+        display: block;
+        background: #fff;
+        }
+        #nav li.top ul {
+            display: none;
+            }
+            #nav li.top ul li a {
+            line-height: 50px;
+            }
+            #nav li.top:hover {
+                color: #000;
+                cursor: pointer;
+                }
+                #nav li.top:hover ul {
+                    display: block;
+                    }
+                #nav li.top span ul:hover {
+                    color: #000;
+                    cursor: pointer;
+                    }       
+    #photos {
+        height: 500px;
+        overflow-y: hidden;
+        opacity: 0;
+        filter: alpha(opacity = 0);
+        width: 10px;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        }
+        #photos img {
+            margin-right: 10px;
+            }
+            #photos img.no_right_margin {
+                margin-right: 0;
+                }
+            
+    #footer {
+        position: absolute;
+        top: 600px;
+        }
+        
+.left {
+    float: left;
+    }        
+.right {
+    float: right;
+    }
+.clear:after{
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+}
+.clear{
+    display:inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clear {
+    height: 1%;
+}
+.clear {
+    display: block;
+}
