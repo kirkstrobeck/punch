@@ -1,4 +1,4 @@
-#Punch ! a photography template
+#Punch ! *a photography ensemble*
 
 ### Demo photography and links from the inspired [Kimberly Warner](http://kimberlywarner.com/)
 
@@ -25,6 +25,13 @@
 
 ## Instructions 
 
+1. Download by running
+	
+		git clone https://github.com/kirkstrobeck/punch
+		cd punch
+		git submodule update --init
+	
+	
 1. Drop the `httpdocs` files on your webserver ( we recommend a local server called `punch` )
 1. Install the MYSQL file from the `mysql` folder
 1. Log in to `/symphony` with the credentials
