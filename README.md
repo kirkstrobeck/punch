@@ -1,6 +1,8 @@
 #Punch ! *a photography ensemble*
 
-### Demo photography and links from the inspired [Kimberly Warner](http://kimberlywarner.com/)
+### Live example at [kimberlywarner.com](http://kimberlywarner.com/)
+
+#### Included demo photography and links from the inspired [Kimberly Warner](http://kimberlywarner.com/)
 
 ## Features
 
