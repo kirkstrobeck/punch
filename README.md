@@ -10,8 +10,12 @@
 - Links pop up in new window if on a different sever
 - iPhone, iPad compatible (not yet optimized)
 - Link to large or small galleries, ie.
-	* http://kimberlywarner.com/street/1000/
-	* http://kimberlywarner.com/street/100/
+	* Live example
+		* [http://kimberlywarner.com/street/1000/](http://kimberlywarner.com/street/1000/)
+		* [http://kimberlywarner.com/street/100/](http://kimberlywarner.com/street/100/)
+	* Local example (post install)
+		* [http://punch/street/1000/](http://punch/street/1000/)
+		* [http://punch/street/100/](http://punch/street/100/)
 - Dynamic site name
 - **It’s a community project ! So we can all make it better :)**
 
